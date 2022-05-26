@@ -1,0 +1,36 @@
+
+Subindo o projeto pela primeira vez no repositório
+-------------------------------------------------------------->
+
+Abra o Git Bash ou terminal na pasta onde está o seu projeto
+
+Inicie a pasta como um repositório do Git através do comando:
+git init
+
+Em seguida, adicione os arquivos de configuração para preparar o commit:
+git add .
+
+Opcional: Adicione um arquivo readme caso não tenha iniciado o repositório com ele:
+git add README.md
+
+Crie um novo commit para os arquivos que irá subir para o repositório:
+git commit -m "first commit"
+
+Suba seus arquivos utilizando a URL no seguinte comando:
+git remote add origin URL
+
+Autorize o upload com seu login e senha:
+git push -u origin master
+
+============================================================
+git status
+
+git checkout -b nome_branch
+
+git add .
+
+git commit -m "descrição"
+
+git push --set-upstream origin nome_branch
+
+=======================================================
